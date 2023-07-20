@@ -1,3 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+#navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translateY(80vh);
+  margin: 0 35rem;
+  border-radius: 5rem;
+  padding: 1rem 1rem;
+  background: #1f1f38;
+  position: fixed;
+  border: none;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  /* border: 1px solid red; */
+  padding: 0.5rem 0.5rem;
+}
+
+#navbar ul li a {
+  font-size: 1.5rem;
+  color: var(--color-white);
+  opacity: 0.7;
+}
