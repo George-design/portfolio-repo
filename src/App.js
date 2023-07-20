@@ -1,11 +1,27 @@
 import "./App.css";
-import header from "./components/Header/header";
+
+import Navbar from "./components/navbar/navbar";
+import Home from "./components/home/home";
+import About from "./components/About/about";
+import Experience from "./components/experience/experience";
+import Services from "./components/services/services";
+import Projects from "./components/Projects/projects";
+import Testimonials from "./components/testimonials/testimonials";
+import Contact from "./components/contact/contact";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
     <div className='App'>
-      {header}
-      <h1 className='font-bold underline'>Hello world!</h1>
+      <Navbar />
+      <Home />
+      <About />
+      <Experience />
+      <Services />
+      <Projects />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }
