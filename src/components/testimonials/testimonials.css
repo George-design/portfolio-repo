@@ -40,11 +40,26 @@
 #testimonials-section
   .testimonials
   .testimonials-content
+  .testimonials-card:hover {
+  background: transparent;
+  border: 2px solid var(--color-bg);
+}
+
+#testimonials-section
+  .testimonials
+  .testimonials-content
   .testimonials-card
   h4 {
   color: var(--color-white);
   font-size: 1.3rem;
   margin: 1rem 0;
+}
+
+#testimonials-section .testimonials .testimonials-content .testimonials-card p {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
 }
 
 #testimonials-section

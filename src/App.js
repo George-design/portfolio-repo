@@ -9,6 +9,7 @@ import Projects from "./components/Projects/projects";
 import Testimonials from "./components/testimonials/testimonials";
 import Contact from "./components/contact/contact";
 import Footer from "./components/Footer/footer";
+import AfterFooter from "./components/after-footer/after-footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+      <AfterFooter />
     </div>
   );
 }
