@@ -31,7 +31,7 @@ const Home = () => {
         <div className='center'>
           <div className='home-content'>
             <p>Hello I'm</p>
-            <h2>George Irungu</h2>
+            <h2>Lemuel Macharia</h2>
             <p>Fullstack developer</p>
             <div className='home-content-btn'>
               <input type='button' value='Download CV' id='btn-download' />

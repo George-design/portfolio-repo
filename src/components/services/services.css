@@ -1,0 +1,112 @@
+#services-section {
+  background: var(--color-bg-variant);
+  padding: 5rem 0;
+}
+
+#services-section #services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#services-section #services .services-header h3 {
+  font-size: 1.3rem;
+}
+
+#services-section #services .services-header h2 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+}
+
+#services-section #services .services-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#services-section #services .services-content .services-card {
+  margin: 4rem 3rem;
+  /* border: 1px solid red; */
+  background: var(--color-bg);
+}
+
+#services-section
+  #services
+  .services-content
+  .services-card
+  .services-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--color-bg);
+  padding: 1rem 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+#services-section #services .services-content .services-card:hover,
+#services-section
+  #services
+  .services-content
+  .services-card
+  .services-card-content:hover {
+  background: var(--color-bg-variant);
+}
+
+#services-section #services .services-content .services-card:hover {
+  border: 1px solid var(--color-primary);
+}
+
+/* #services-section
+  #services
+  .services-content
+  .services-card
+  .services-card-content
+  ul
+  li {
+  margin: 2rem 0;
+} */
+
+#services-section
+  #services
+  .services-content
+  .services-card
+  .services-card-content
+  ul
+  .icon {
+  display: flex;
+  margin: 2rem 0;
+}
+
+#services-section
+  #services
+  .services-content
+  .services-card
+  .services-card-content
+  ul
+  .icon
+  i {
+  margin: 0 0.5rem;
+}
+
+#services-section
+  #services
+  .services-content
+  .services-card
+  .services-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--color-primary);
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+}
