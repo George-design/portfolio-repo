@@ -2,3 +2,9 @@
   padding: 5rem 0;
   background: var(--color-bg-variant);
 }
+
+@media only screen and (max-width: 768px) {
+  #afterFooter {
+    border: 1px solid red;
+  }
+}

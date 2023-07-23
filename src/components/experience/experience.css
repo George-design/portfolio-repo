@@ -378,3 +378,80 @@
   color: var(--color-primary);
   font-size: 2.1rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  #experience-section #experience .experience-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  #experience-section #experience .experience-content .experience-left {
+    background: var(--color-bg);
+    padding: 3rem 3rem 3rem 3rem;
+    border-radius: 1rem;
+  }
+
+  #experience-section #experience .experience-content .experience-right {
+    background: var(--color-bg);
+    padding: 3rem 3rem 3rem 3rem;
+    border-radius: 1rem;
+    margin-left: -2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #experience-section {
+    background: var(--color-bg-variant);
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  #experience-section #experience .experience-content .experience-left {
+    background: var(--color-bg);
+    margin: 1rem 0 0 0;
+    padding: 3rem 3rem 3rem 3rem;
+    border-radius: 1rem;
+  }
+
+  #experience-section #experience .experience-content .experience-right {
+    background: var(--color-bg);
+    margin: 0.2rem 0 0 0;
+    padding: 3rem 3rem 3rem 3rem;
+    border-radius: 1rem;
+  }
+
+  #experience-section #experience .experience-header {
+    margin-bottom: 0.2rem;
+  }
+
+  #experience-section #experience .experience-content .experience-left {
+    background: var(--color-bg);
+    margin: 0.2rem 3rem 0 0;
+    padding: 3rem 3rem 3rem 3rem;
+    border-radius: 1rem;
+    transition: background 0.5s;
+  }
+  #experience-section #experience .experience-content .experience-right {
+    background: var(--color-bg);
+    margin: 2rem 3rem 0 0;
+    padding: 3rem 3rem 3rem 3rem;
+    border-radius: 1rem;
+    transition: background 0.5s;
+  }
+
+  #experience-section #experience .experience-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #experience-section {
+    border: 1px solid red;
+  }
+}

@@ -110,3 +110,60 @@
   border-bottom-right-radius: 3rem;
   border-bottom-left-radius: 3rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  #services-section #services .services-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  /* #services-section
+  #services
+  .services-content
+  .services-card
+  .services-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--color-bg);
+  padding: 1rem 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+} */
+
+  #services-section #services .services-content .services-card {
+    margin: 4rem 1rem;
+    /* border: 1px solid red; */
+    background: var(--color-bg);
+  }
+
+  #services-section {
+    background: var(--color-bg-variant);
+    padding: 0.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #services-section #services .services-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #services-section #services .services-content .services-card {
+    margin: 2rem 1rem;
+    /* border: 1px solid red; */
+    background: var(--color-bg);
+  }
+  #services-section #services {
+    padding-top: 4rem;
+  }
+  #services-section {
+    border: 1px solid red;
+  }
+}

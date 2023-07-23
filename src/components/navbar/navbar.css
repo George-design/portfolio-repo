@@ -27,3 +27,22 @@
   color: var(--color-white);
   opacity: 0.7;
 }
+
+@media only screen and (max-width: 1024px) {
+  #navbar {
+    transform: translateX(-25rem);
+    margin-top: 80%;
+    position: fixed;
+    z-index: 1000;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+    transform: translateX(-30rem);
+    margin-top: 100%;
+    position: fixed;
+    z-index: 1000;
+    border: 1px solid red;
+  }
+}
